@@ -10,22 +10,24 @@
     <header>
         <h1>Contact Me</h1>
     </header>
-    <nav>
-        <ul>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="about.html">About</a></li>
-            <li><a href="projects.html">Experience</a></li>
-            <li><a href="contact.html">Contact</a></li>
-        </ul>
-    </nav>
-    <section>
-        <h2>Contact Information</h2>
-        <p><strong>Email:</strong> khalidhafezomar@gmail.com</p>
-        <p><strong>Phone:</strong> +966-508493588</p>
-        <p><strong>Location:</strong> Saudi Arabia</p>
+
+    <section id="contact-form">
+        <form action="mailto:khalidhafezomar@gmail.com" method="post" enctype="text/plain">
+            <label for="name">Name:</label><br>
+            <input type="text" id="name" name="name" required><br>
+
+            <label for="email">Email:</label><br>
+            <input type="email" id="email" name="email" required><br>
+
+            <label for="message">Message:</label><br>
+            <textarea id="message" name="message" rows="5" required></textarea><br>
+
+            <input type="submit" value="Send">
+        </form>
     </section>
+
     <footer>
-        <p>&copy; 2024 Khalid Omar. All rights reserved.</p>
+        <p>&copy; 2024 Khalid Omar. All Rights Reserved.</p>
     </footer>
 </body>
 </html>
