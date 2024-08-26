@@ -1,29 +1,34 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contact - Khalid Omar</title>
-    <link rel="stylesheet" href="css/styles.css">
-</head>
-<body>
-    <header>
-        <h1>Contact Me</h1>
-        <nav>
-            <a href="index.html">Home</a>
-            <a href="about.html">About Me</a>
-            <a href="projects.html">Projects</a>
-        </nav>
-    </header>
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
 
-    <section>
-        <h2>Get in Touch</h2>
-        <p>Email: <a href="mailto:khalidhafezomar@gmail.com">khalidhafezomar@gmail.com</a></p>
-        <p>LinkedIn: <a href="https://www.linkedin.com/in/khalidhafezomar">linkedin.com/in/khalidhafezomar</a></p>
-    </section>
+header {
+    background: #333;
+    color: #fff;
+    padding: 1rem 0;
+    text-align: center;
+}
 
-    <footer>
-        <p>&copy; 2024 Khalid Omar</p>
-    </footer>
-</body>
-</html>
+nav a {
+    color: #fff;
+    margin: 0 1rem;
+    text-decoration: none;
+}
+
+section {
+    padding: 2rem;
+    margin: auto;
+    max-width: 800px;
+    background: #fff;
+}
+
+footer {
+    text-align: center;
+    padding: 1rem 0;
+    background: #333;
+    color: #fff;
+}
